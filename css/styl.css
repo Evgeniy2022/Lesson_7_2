@@ -1,0 +1,174 @@
+
+@import "null.css";
+@font-face{
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper{
+	overflow: hidden;	
+}
+
+body{
+	background: url("../img/fon.jpg") 100% 20% / cover no-repeat fixed;
+	font-family: CircularStd;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1.5;
+	color: rgb(1, 38, 245);
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.content__top{
+	text-align: center;
+	color: rgb(250, 4, 238);
+	text-shadow: 2px 2px 1px #000;
+}
+h1{
+	font-size: 40px;
+	color: rgb(250, 3, 3);
+	text-shadow: 0px 1px 2px rgb(61, 250, 3);
+}
+
+h2{
+	font-family: CircularStd;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 25px;
+	color: black;
+	text-shadow: 2px 0.5px 2px rgb(38, 141, 81);
+}
+.title h2{
+	font-family: CircularStd;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	color: rgb(9, 243, 20);
+	text-shadow: 0px 2px 2px rgb(0, 0, 0);
+}
+p{
+	color: #000;
+}
+.content__center-text1 p {
+	background: url("../img/povtorenie.jpeg") 0 0 / 130px repeat;
+	border: 5px solid rgb(7, 29, 226);
+}
+.content__center-text2 p{
+	background: red url("../img/s_mirom.jpg") 0 0 / 180px no-repeat;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 2px rgb(7, 29, 226);
+}
+.content__center-text4 p {
+	background: rgba(255, 0, 0, 0.233) url("../img/povtori2.jpg") 0 0 / 180px repeat-x;
+	border: 5px dotted rgb(21, 36, 18);
+	border-radius: 50px 0 0 50px;
+}
+.content__center-text5 p{
+	background: rgba(0, 0, 255, 0.39) url("../img/povtori3.jpg") 0 0 / 130px repeat-y;
+	overflow: scroll;
+}
+.content__center-text6 p{
+	background: rgba(229, 255, 0, 0.274) url("../img/adekvat.jpg") 0 0 / 200px space;
+	outline: 5px double rgb(131, 10, 245);
+	margin: 5px;
+	border-radius: 20px 0 20px 0;
+	border: 10px dashed rgb(187, 66, 66);
+}
+.content__center-text7 p{
+	background: rgba(229, 255, 0, 0.274) url("../img/divu.jpg") 0 0 / 200px round;;
+	border-radius:40%;
+	border: 1px solid rgb(236, 240, 8);
+	box-shadow: 5px 5px 10px 10px rgb(20, 21, 22);
+	margin: 5px;
+}
+
+.content__center-text8 p{
+	background: url("../img/fon.jpg") 0 0 / 100px no-repeat;
+	border: 5px solid rgb(248, 4, 4);
+}
+.content__center-text9 p{
+	background:  rgba(0, 0, 255, 0.329) url("../img/hvali.jpg") center / 300px no-repeat;
+	border-top: 20px double rgb(0, 225, 255);
+	overflow: auto;
+	max-height: 300px;
+	color: rgba(0, 255, 255, 0);
+}
+.content__center-text10 p{
+	background:  rgba(0, 0, 255, 0.329) url("../img/jorostb.jpg") 10% 20% / 200px no-repeat;
+	border: 20px double rgb(175, 2, 209);
+	border-radius: 50px 20px;
+}
+.content__center-text11 p{
+	background:  rgba(53, 117, 119, 0.329) url("../img/polnit.png") 0 0 / 500px 300px no-repeat;
+	border-radius: 10%;
+}
+.content__center-text12 p{
+	background:  rgba(49, 43, 49, 0.329) url("../img/tjanet.jpg") 0 0 / contain no-repeat;
+}
+.content__center-text13 p{
+	background: url("../img/zapoln.jpg") 0 0 / cover no-repeat;
+	border-radius: 20px 20px 20px 0 ;
+	border: 5px dotted rgb(30, 4, 36);
+	box-shadow: inset 5px 5px 10px 10px rgb(20, 21, 22);
+}
+.content__center-text14 p{
+	background:  rgba(49, 43, 49, 0.329) url("../img/fix.jpg") 0 0 / cover no-repeat fixed;
+	overflow: auto;
+}
+.content__center-text15 p{
+	background-color: rgba(40, 204, 190, 0.774);
+	text-shadow: 8px 1px 1px rgb(224, 11, 11);
+}
+.content__center-text16 p{
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.content__center-text17 p{
+	background: url("../img/vz.jpg")  0 0 / 100px no-repeat,  url("../img/ideal.jpg")center / 500px no-repeat, linear-gradient(90deg, rgba(131,58,180,1) , rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+h3{
+	font-size: 36px;
+	text-shadow: 0px 2px 1px rgb(19, 11, 11);
+	color: brown;
+}
+ul{
+	margin-bottom: px;
+}
+.content__center-list li{
+	margin-bottom: 5px;
+}
+ul .content__center-list-cat1{
+	color: black;
+	background:  rgba(49, 43, 49, 0.329) url("../img/list.jpg") 0 0 / 30px no-repeat;
+	padding-left: 40px;
+}
+ul .content__center-list-cat2{
+	background:  rgba(40, 116, 151, 0.329) url("../img/list2.jpg") 0 0 / 30px no-repeat;
+	padding-left: 40px;
+	color: rgb(74, 138, 211);
+}
+ul .content__center-list-cat3{
+	color: black;
+	background:  rgba(28, 109, 35, 0.329) url("../img/list3.jpeg") 0 0 / 30px no-repeat;
+	padding-left: 40px;
+	color: rgb(243, 8, 223);
+}
+ul .content__center-list-cat4{
+	color: black;
+	background:  rgba(185, 202, 35, 0.432) url("../img/list4.jpg") 0 0 / 30px no-repeat;
+	padding-left: 40px;
+	color: rgb(188, 8, 243);
+}
